@@ -1,0 +1,1 @@
+export const selectorAllPaintings = (state) => state.paintings.allPaintings

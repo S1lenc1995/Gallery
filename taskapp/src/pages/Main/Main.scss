@@ -1,0 +1,18 @@
+.galery-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paintings_list{
+  /*   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 425px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,51 @@
+.painting{
+    padding: 20px;
+    width: fit-content;
+    border: 1px solid rgb(222, 218, 218);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    margin: 50px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: rgb(0 0 0 / 7%) 0 1px 2px, rgb(0 0 0 / 7%) 0 2px 4px, rgb(0 0 0 / 7%) 0 4px 8px,
+          rgb(0 0 0 / 7%) 0 8px 16px, rgb(0 0 0 / 7%) 0 16px 32px, rgb(0 0 0 / 7%) 0 32px 64px;
+        scale: (1.1);
+    }
+    @media (max-width: 550px) {
+        font-size: 12px;
+        height: 300px;
+      } 
+      @media (max-width: 460px) {
+        font-size: 10px;
+        height: 200px;
+      } 
+
+    &__block{
+        margin-bottom: 15px;
+        &--img{
+            max-height: 300px;
+            @media (max-width: 550px) {
+                max-height: 200px;
+              } 
+              @media (max-width: 460px) {
+                max-height: 120px;
+              } 
+        }
+    }
+    &__text{
+        text-align: center;
+        max-width: 200px;
+    }
+    &__description{
+        color: rgb(154, 154, 154);
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
